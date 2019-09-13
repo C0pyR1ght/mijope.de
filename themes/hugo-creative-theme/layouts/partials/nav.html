@@ -36,11 +36,6 @@
                         <a class="page-scroll" href="#skills">{{ .Site.Params.navigation.links.skills }}</a>
                     </li>
                 {{ end }}
-                {{ if and .Site.Params.location .Site.Params.navigation.links.location }}
-                <li>
-                    <a class="page-scroll" href="#location">{{ .Site.Params.navigation.links.location }}</a>
-                </li>
-                {{ end }}
                 {{ if and .Site.Params.contact .Site.Params.navigation.links.contact }}
                     <li>
                         <a class="page-scroll" href="#contact">{{ .Site.Params.navigation.links.contact }}</a>

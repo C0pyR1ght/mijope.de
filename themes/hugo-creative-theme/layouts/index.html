@@ -24,10 +24,6 @@
             {{ partial "portfolio.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.location }}
-            {{ partial "location.html" . }}
-        {{ end }}
-
         {{ if .Site.Data.projects }}
             {{ partial "modals.html" . }}
         {{ end }}

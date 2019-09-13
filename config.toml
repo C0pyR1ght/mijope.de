@@ -2,7 +2,6 @@ baseurl = "https://test.rootknecht.net"
 languageCode = "en-us"
 title = "Michael Johann Peter - IT Consulting"
 theme = "hugo-creative-theme"
-googleAnalytics = ""
 
 [params]
 
