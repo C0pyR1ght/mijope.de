@@ -67,7 +67,7 @@ theme = "hugo-creative-theme"
         <p><strong>Git | Github | Gitlab | Bitbucket | SVN</strong></p>
         <p><strong>HTML | XML | Markdown | AsciiDoc</strong></p>
         <p><strong>Nmap | Burp | Fiddler</strong></p>
-        <p><strong>Apache2 | Nginx | HAProxy | Nexus | </strong></p>
+        <p><strong>Apache2 | Nginx | HAProxy | Nexus</strong></p>
 
         '''
         # buttonText  = "Get started!"
