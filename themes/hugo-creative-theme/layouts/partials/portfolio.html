@@ -1,0 +1,40 @@
+<section class="no-padding" id="portfolio">
+    {{ with .Site.Params.portfolio.modal.headline }}
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ . }}</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+    {{ end }}
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            {{ range .Site.Data.projects }}
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#portfolioModal{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
+                        <img src="img/portfolio/{{ .img }}" class="img-responsive" alt="">
+                        {{ if and .category .title }}
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                <!-- Not needed as category is the image for now! -->
+                                <!--{{ with .category }}
+                                        <div class="project-category text-faded">
+                                            {{ . }}
+                                        </div>
+                                    {{ end }} -->
+                                    {{ with .title }}
+                                        <div class="project-name">
+                                            {{ . }}
+                                        </div>
+                                    {{ end }}
+                                </div>
+                            </div>
+                        {{ end }}
+                    </a>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

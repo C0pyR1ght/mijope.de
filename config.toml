@@ -1,0 +1,142 @@
+baseurl = "https://test.rootknecht.net"
+languageCode = "en-us"
+title = "Michael Johann Peter - IT Consulting"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Michael Johann Peter"
+	description = "IT Consulting in the field of software engineering and IT operations. Topics include cloud environments, containerization, continuous deployments, and build pipelines. Technolgies include AWS, Terraform, Docker, Jenkins, Ansible, Python, Java, Bash, Debian, CentOS, Git, Jira, Confluence, Prometheus"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.png"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Michael Johann Peter"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Services"
+			portfolio = "Projects"
+            skills    = "Skills"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "„Knowledge is power“"
+		subtitle   = "Delivering services in the field of IT Operations and Software Engineering. <br> <emphy>My goal is to boost your business by enabling your IT!</emph>"
+		buttonText = "Show me more"
+
+
+	# About section
+	[params.about]
+		headline    = "ME"
+		# description = '''I do not know everything <br> I do not know every methodolgy <br> I do not know every tool <br> I do not know every language <br> I do not know every framework <br> \
+      # <b>I know what I do not know <br> I have a broad understanding of IT <br> I am willing to learn <br> I am able to learn fast <br> I play for the team <br> I am affable <br> I am one with my machine </b>'''
+    	description = '''Munich based IT Consultant <br> IT is not only my profession but my passion <br> I am a team player <br> I love to develop solutions <br> I have a broad understanding of IT <br> I don't hesitate to learn and improve <br> I am easy to work with '''
+		# buttonText  = "Get started!"
+
+    # Experiences section
+    [params.skills]
+        headline    = "Skillz"
+        description = '''<p><strong>Ansible | Puppet</strong></p>
+        <p><strong>AWS | VMware vSphere | VirualBox</strong></p>
+        <p><strong>Terraform | Vagrant</strong></p>
+        <p><strong>Jenkins | Docker(-swarm) | Prometheus | Grafana</strong></p>
+        <p><strong>Debian | Ubuntu | CentOS | SUSE | Arch | Windows</strong></p>
+        <p><strong>Python | Bash | Java | Ruby | Go</strong></p>
+        <p><strong>Confluence | Jira | Rally | Sharepoint</strong></p>
+        <p><strong>Git | Github | Gitlab | Bitbucket | SVN</strong></p>
+        <p><strong>HTML | XML | Markdown | AsciiDoc</strong></p>
+        <p><strong>Nmap | Burp | Fiddler</strong></p>
+        <p><strong>Apache2 | Nginx | HAProxy | Nexus | </strong></p>
+
+        '''
+        # buttonText  = "Get started!"
+
+	# Service section
+	[params.services]
+		headline = "I can support you in"
+
+        [[params.services.list]]
+            icon = "fa-code"
+            title = "Software Engineering"
+            description = "Enable your Engineers to deliver high quality products"
+
+        [[params.services.list]]
+            icon = "fa-server"
+            title = "Operations"
+            description = "Set up environments for your Devs and support your Ops"
+
+        [[params.services.list]]
+            icon = "fa-cloud"
+            title = "Cloud Environments"
+            description = "Think Cloud Native in AWS"
+
+        [[params.services.list]]
+            icon = "fa-linux"
+            title = "Linux Administration"
+            description = "Linux and the shell is my second home"
+
+        [[params.services.list]]
+            icon = "fa-cogs"
+            title = "Automation"
+            description = "I love to automate boring stuff"
+
+        [[params.services.list]]
+            icon = "fa-shield"
+            title = "IT Security"
+            description = "I keep security aspects in my mind"
+
+        [[params.services.list]]
+            icon = "fa-graduation-cap"
+            title = "Trainings"
+            description = "I can train you to improve your productivity"
+
+        [[params.services.list]]
+            icon = "fa-pencil"
+            title = "Publicity"
+            description = "I can support you in writing technical articles"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        headline = "Some projects I have been working on"
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Have a look at my knowledge base where you can find more details about me and what I am into"
+
+		[params.aside.button]
+			text = "Prepare for Knowledge"
+			link = "https://knowledge.rootknecht.net/about"
+
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		#description = "Feel free to contact me"
+		email = "me@mijope.de"

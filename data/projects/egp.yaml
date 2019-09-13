@@ -1,0 +1,7 @@
+modalID: 1
+title: Infrastructure and Continuous Delivery
+img: devops.png
+client: Financial Business
+clientLink: "#"
+category: DevOps
+description: Building and the infrastructure and the build pipeline in a multi million Euro project. Establishing guidelines and troubleshooting the dev environments in together with the teams. <br>Jenkins, Ansible, Debian, Java, Spring Boot, Microservices, Docker

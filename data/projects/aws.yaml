@@ -1,0 +1,7 @@
+modalID: 6
+title: AWS Migration
+img: operations.png
+client: Energy Business
+clientLink: "#"
+category: Operations
+description: Migration of an application landscape between two AWS accounts. <br>AWS, Terraform, Ansbile, CentOS, Python
