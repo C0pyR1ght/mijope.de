@@ -26,14 +26,14 @@
                         <a class="page-scroll" href="#services">{{ .Site.Params.navigation.links.services }}</a>
                     </li>
                 {{ end }}
-                {{ if and .Site.Data.projects .Site.Params.navigation.links.portfolio }}
-                    <li>
-                        <a class="page-scroll" href="#portfolio">{{ .Site.Params.navigation.links.portfolio }}</a>
-                    </li>
-                {{ end }}
                 {{ if and .Site.Params.skills .Site.Params.navigation.links.skills }}
                     <li>
                         <a class="page-scroll" href="#skills">{{ .Site.Params.navigation.links.skills }}</a>
+                    </li>
+                {{ end }}
+                {{ if and .Site.Data.projects .Site.Params.navigation.links.portfolio }}
+                    <li>
+                        <a class="page-scroll" href="#portfolio">{{ .Site.Params.navigation.links.portfolio }}</a>
                     </li>
                 {{ end }}
                 {{ if and .Site.Params.contact .Site.Params.navigation.links.contact }}

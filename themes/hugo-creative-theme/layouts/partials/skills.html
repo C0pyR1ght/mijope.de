@@ -6,16 +6,14 @@
                 {{ with .Site.Params.skills.headline }}
                     <h2 class="section-heading">{{ . }}</h2>
                 {{ end }}
-                {{ if and .Site.Params.skills.headline .Site.Params.skills.description }}
                     <hr class="light">
-                {{ end }}
                 {{ with .Site.Params.skills.description }}
-                    <p class="text-faded">{{ . | markdownify }}</p>
-                {{ end }}
-                {{ with .Site.Params.skills.buttonText }}
-                    <a href="#" class="btn btn-default btn-xl">{{ . }}</a>
+                <div class="skills">{{ . | markdownify }}</div>
                 {{ end }}
             </div>
         </div>
+                {{ with .Site.Params.skills.buttonText }}
+                <center><a href="#portfolio" class="btn btn-default btn-xl page-scroll">{{ . }}</a></center>
+                {{ end }}
     </div>
 </section>

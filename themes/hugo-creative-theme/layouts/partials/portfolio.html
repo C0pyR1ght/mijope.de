@@ -1,4 +1,4 @@
-<section class="no-padding" id="portfolio">
+<section id="portfolio">
     {{ with .Site.Params.portfolio.modal.headline }}
             <div class="container">
             <div class="row">
@@ -23,12 +23,12 @@
                                         <div class="project-category text-faded">
                                             {{ . }}
                                         </div>
-                                    {{ end }} -->
+                                    {{ end }}
                                     {{ with .title }}
                                         <div class="project-name">
                                             {{ . }}
                                         </div>
-                                    {{ end }}
+                                    {{ end }} -->
                                 </div>
                             </div>
                         {{ end }}
@@ -36,5 +36,8 @@
                 </div>
             {{ end }}
         </div>
+        {{ with .Site.Params.portfolio.buttonText }}
+        <center><a href="#about" class="btn btn-primary btn-xl page-scroll">{{ . }}</a><center>
+        {{ end }}
     </div>
 </section>

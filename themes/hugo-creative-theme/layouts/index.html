@@ -20,16 +20,12 @@
             {{ partial "services.html" . }}
         {{ end }}
 
-        {{ if .Site.Data.projects }}
-            {{ partial "portfolio.html" . }}
-        {{ end }}
-
-        {{ if .Site.Data.projects }}
-            {{ partial "modals.html" . }}
-        {{ end }}
-
         {{ if .Site.Params.skills }}
             {{ partial "skills.html" . }}
+        {{ end }}
+
+        {{ if .Site.Data.projects }}
+            {{ partial "portfolio.html" . }}
         {{ end }}
 
         {{ if .Site.Params.aside }}

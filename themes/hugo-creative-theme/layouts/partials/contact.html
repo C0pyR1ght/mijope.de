@@ -13,7 +13,7 @@
                     <p>{{ . | markdownify }}</p>
                 {{ end }}
             </div>
-            {{ if .Site.Params.contact.phone }}
+            {{ if .Site.Params.contact.keybase }}
                 <div class="
                 {{ if .Site.Params.contact.email }}
                     col-lg-4
@@ -21,13 +21,13 @@
                     col-lg-8
                 {{ end }}
                 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>{{ .Site.Params.contact.phone }}</p>
+                    <i class="fa fa-key fa-3x wow bounceIn"></i>
+                    <p><a href="{{ .Site.Params.contact.keybase }}" target="_Blank">keybase.io</a></p>
                 </div>
             {{ end }}
             {{ if .Site.Params.contact.email }}
                 <div class="
-                {{ if .Site.Params.contact.phone }}
+                {{ if .Site.Params.contact.keybase }}
                     col-lg-4
                 {{ else }}
                     col-lg-8 col-lg-offset-2
@@ -38,5 +38,6 @@
                 </div>
             {{ end }}
         </div>
+        <center><p><a href="#about" class="btn btn-primary btn-xl page-scroll">Back to Top</a></p></center>
     </div>
 </section>

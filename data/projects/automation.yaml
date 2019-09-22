@@ -1,7 +1,8 @@
 modalID: 5
 title: Automate Assets Documentation
-img: automation.png
+img: assets.png
 client: Video Business
 clientLink: "#"
 category: Automation
-description: Automatically generate documentation for Jira Insight from yaml configuration files modelling video infrastructure. Featuring fully automated pipeline and documentation.<br>Python, Docker, Jira Insight, Jenkins, Puppet
+description: Automatically generate documentation for Jira Insight from yaml configuration files modelling video infrastructure. Featuring fully automated pipeline and documentation.
+technologies: Python, Docker, Jira Insight, Jenkins, Puppet

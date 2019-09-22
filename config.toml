@@ -28,33 +28,69 @@ theme = "hugo-creative-theme"
 
 	# Navigation
 	[params.navigation]
-		brand = "Michael Johann Peter"
-
-		[params.navigation.links]
-			about     = "About"
-			services  = "Services"
-			portfolio = "Projects"
-            skills    = "Skills"
-			contact   = "Contact"
+		  brand = "Michael Johann Peter"
+		  [params.navigation.links]
+          about     = "About"
+          services  = "Services"
+          skills    = "Skills"
+          portfolio = "Portfolio"
+          contact   = "Contact"
 
 
 	# Hero section
 	[params.hero]
-		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "„Knowledge is power“"
-		subtitle   = "Delivering services in the field of IT Operations and Software Engineering. <br> <emphy>My goal is to boost your business by enabling your IT!</emph>"
-		buttonText = "Show me more"
+      # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+      slogan     = "„Knowledge is power“"
+      subtitle   = "Delivering services in the field of IT Operations and Software Engineering. <br> <strong>My goal is to boost your business by enabling your IT!</strong>"
+      buttonText = "Show me more"
 
 
 	# About section
 	[params.about]
-		headline    = "ME"
-		# description = '''I do not know everything <br> I do not know every methodolgy <br> I do not know every tool <br> I do not know every language <br> I do not know every framework <br> \
-      # <b>I know what I do not know <br> I have a broad understanding of IT <br> I am willing to learn <br> I am able to learn fast <br> I play for the team <br> I am affable <br> I am one with my machine </b>'''
-    	description = '''Munich based IT Consultant <br> IT is not only my profession but my passion <br> I am a team player <br> I love to develop solutions <br> I have a broad understanding of IT <br> I don't hesitate to learn and improve <br> I am easy to work with '''
-		# buttonText  = "Get started!"
+      headline    = "ME"
+        description = '''Munich based IT Consultant <br> IT is not only my profession but my passion <br> I am a team player <br> I love to develop solutions <br> I have a broad understanding of IT <br> I don't hesitate to learn and improve <br> I am easy to work with '''
+        buttonText  = "How can I support you?"
 
-    # Experiences section
+
+	# Service section
+	[params.services]
+		headline = "My services include"
+    buttonText  = "Working with"
+        [[params.services.list]]
+            icon = "fa-code"
+            title = "Software Engineering"
+            description = "Enable your Engineers to deliver"
+        [[params.services.list]]
+            icon = "fa-server"
+            title = "Operations"
+            description = "Work with your Devs and Ops"
+        [[params.services.list]]
+            icon = "fa-cloud"
+            title = "Cloud Environments"
+            description = "Think Cloud Native in AWS"
+        [[params.services.list]]
+            icon = "fa-linux"
+            title = "Linux Administration"
+            description = "Linux and the shell is my second home"
+        [[params.services.list]]
+            icon = "fa-cogs"
+            title = "Automation"
+            description = "I love to automate boring stuff"
+        [[params.services.list]]
+            icon = "fa-shield"
+            title = "IT Security"
+            description = "I keep security aspects in my mind"
+        [[params.services.list]]
+            icon = "fa-graduation-cap"
+            title = "Trainings"
+            description = "Enhance productivity and tooling"
+        [[params.services.list]]
+            icon = "fa-pencil"
+            title = "Publicity"
+            description = "Support you in writing technical articles"
+
+
+    # Skills section
     [params.skills]
         headline    = "Skillz"
         description = '''<p><strong>Ansible | Puppet</strong></p>
@@ -70,72 +106,29 @@ theme = "hugo-creative-theme"
         <p><strong>Apache2 | Nginx | HAProxy | Nexus</strong></p>
 
         '''
-        # buttonText  = "Get started!"
-
-	# Service section
-	[params.services]
-		headline = "I can support you in"
-
-        [[params.services.list]]
-            icon = "fa-code"
-            title = "Software Engineering"
-            description = "Enable your Engineers to deliver high quality products"
-
-        [[params.services.list]]
-            icon = "fa-server"
-            title = "Operations"
-            description = "Set up environments for your Devs and support your Ops"
-
-        [[params.services.list]]
-            icon = "fa-cloud"
-            title = "Cloud Environments"
-            description = "Think Cloud Native in AWS"
-
-        [[params.services.list]]
-            icon = "fa-linux"
-            title = "Linux Administration"
-            description = "Linux and the shell is my second home"
-
-        [[params.services.list]]
-            icon = "fa-cogs"
-            title = "Automation"
-            description = "I love to automate boring stuff"
-
-        [[params.services.list]]
-            icon = "fa-shield"
-            title = "IT Security"
-            description = "I keep security aspects in my mind"
-
-        [[params.services.list]]
-            icon = "fa-graduation-cap"
-            title = "Trainings"
-            description = "I can train you to improve your productivity"
-
-        [[params.services.list]]
-            icon = "fa-pencil"
-            title = "Publicity"
-            description = "I can support you in writing technical articles"
+        buttonText  = "Experiences"
 
 
-    # Portfolio modals
-	[params.portfolio.modal]
-        headline = "Some projects I have been working on"
+    # Portfolio scetion
+	  [params.portfolio.modal]
+        headline = "Some topics I have been working on"
         client = "Client"
         date = "Date"
         category = "Category"
         buttonText = "Close"
 
-    # Aside section
-	[params.aside]
-		headline = "Have a look at my knowledge base where you can find more details about me and what I am into"
 
+    # knowledge.rooknecht.net
+	  [params.aside]
+	  	  headline = "Have a look at my knowledge base to find more details about me and what I am into"
 		[params.aside.button]
-			text = "Prepare for Knowledge"
-			link = "https://knowledge.rootknecht.net/about"
+        text = "Prepare for some Knowledge"
+        link = "https://knowledge.rootknecht.net/about"
 
 
-	# Contact section
-	[params.contact]
-		headline = "Let's Get In Touch!"
-		#description = "Feel free to contact me"
-		email = "me@mijope.de"
+    # Contact section
+    [params.contact]
+        headline = "Let's Get In Touch!"
+        #description = "Feel free to contact me"
+        email = "me@mijope.de"
+        keybase = "https://keybase.io/allaman"
