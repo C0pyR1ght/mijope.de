@@ -20,7 +20,7 @@ theme = "hugo-creative-theme"
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
 	name = "Michael Johann Peter"
-	description = "IT Consulting in the field of software engineering and IT operations. Topics include cloud environments, containerization, continuous deployments, and build pipelines. Technolgies include AWS, Terraform, Docker, Jenkins, Ansible, Python, Java, Bash, Debian, CentOS, Git, Jira, Confluence, Prometheus"
+	description = "Freelancer/IT Consultant in the field of software engineering and IT operations. Topics include cloud environments, containerization, continuous deployments, and build pipelines. Technolgies include AWS, Terraform, Docker, Jenkins, Ansible, Python, Java, Bash, Debian, CentOS, Git, Jira, Confluence, Prometheus"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.png"
@@ -120,11 +120,17 @@ theme = "hugo-creative-theme"
 
     # knowledge.rooknecht.net
 	  [params.aside]
-	  	  headline = "Have a look at my knowledge base to find more details about me and what I am into"
+	  	  headline = "Warning! Technical stuff incoming"
 		[params.aside.button]
-        text = "Prepare for some Knowledge"
+        text = "My Knowledge Base"
         link = "https://knowledge.rootknecht.net/about"
 
+    # cv
+      [params.cv]
+          headline = "More Details about me"
+        [params.cv.button]
+        text = "Curriculum Vitae"
+        link = "https://knowledge.rootknecht.net/about"
 
     # Contact section
     [params.contact]
