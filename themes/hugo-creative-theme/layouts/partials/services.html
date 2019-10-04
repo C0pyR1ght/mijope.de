@@ -25,9 +25,7 @@
             {{ end }}
         </div>
     </div>
-    <div class="col-lg-8 col-lg-offset-2 text-center">
-      {{ with .Site.Params.services.buttonText }}
-      <a href="#skills" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
-      {{ end }}
-    </div>
+    {{ with .Site.Params.services.buttonText }}
+      <center><a href="#skills" class="btn btn-primary btn-xl page-scroll">{{ . }}</a></center>
+    {{ end }}
 </section>
