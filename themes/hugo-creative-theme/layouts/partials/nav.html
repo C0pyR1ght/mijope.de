@@ -36,6 +36,11 @@
                         <a class="page-scroll" href="#portfolio">{{ .Site.Params.navigation.links.portfolio }}</a>
                     </li>
                 {{ end }}
+                {{ if .Site.Params.navigation.links.cv }}
+                    <li>
+                        <a class="page-scroll" href="#CV">{{ .Site.Params.navigation.links.cv }}</a>
+                    </li>
+                {{ end }}
                 {{ if and .Site.Params.contact .Site.Params.navigation.links.contact }}
                     <li>
                         <a class="page-scroll" href="#contact">{{ .Site.Params.navigation.links.contact }}</a>

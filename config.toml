@@ -34,6 +34,7 @@ theme = "hugo-creative-theme"
           services  = "Services"
           skills    = "Skills"
           portfolio = "Portfolio"
+          cv        = "CV"
           contact   = "Contact"
 
 
