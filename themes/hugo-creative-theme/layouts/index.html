@@ -26,10 +26,15 @@
 
         {{ if .Site.Data.projects }}
             {{ partial "portfolio.html" . }}
+            {{ partial "modals.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.cv }}
+            {{ partial "aside.html" . }}
         {{ end }}
 
         {{ if .Site.Params.aside }}
-            {{ partial "aside.html" . }}
+            {{ partial "cv.html" . }}
         {{ end }}
 
         {{ if .Site.Params.contact }}
