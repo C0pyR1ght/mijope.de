@@ -1,4 +1,4 @@
-{{ "<!-- FOOTER -->" | safeHTML }}
+{{ "<!-- CV -->" | safeHTML }}
 <aside class="bg-dark">
     <div class="container text-center">
         <div class="call-to-action">    {{ with .Site.Params.cv.headline }}<h2>{{ . }}</h2>{{ end }}
@@ -17,139 +17,15 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-<p><strong><big>Curricullum Vitae</big></strong></p>
-<div id="cv" class="instaFade">
-    <div class="mainDetails">
-        <div id="headshot" class="quickFade">
-            <img src="img/profile.jpg" alt="Michael Peter" />
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            <div class="col-lg-4 col-sm-6">
+                TEST
+            </div>
         </div>
-
-        <div id="name">
-            <h1 class="quickFade delayTwo">Michael Johann Peter</h1>
-            <h2 class="quickFade delayThree">IT Consultant</h2>
-        </div>
-
-        <div id="contactDetails" class="quickFade delayFour">
-            <ul>
-                <li>E: <a href="mailto:joe@bloggs.com" target="_blank">me@mijope.de</a></li>
-                <li>W: <a href="http://www.bloggs.com">mijope.de</a></li>
-            </ul>
-        </div>
-        <div class="clear"></div>
-    </div>
-
-    <div id="mainArea" class="quickFade delayFive">
-        <section>
-            <article>
-                <div class="sectionTitle">
-                    <h1>Personal Profile</h1>
-                </div>
-
-                <div class="sectionContent">
-            Top 10 Strengths Harmony, analytical, achiever, consistency, learner, focus, context, competition, intellection, relator
-Communication
-Writing reports, summaries, articles, good listener
-Critical Thinking
-Problem solving, Logical thinking, troubleshooting, willing to learn, flexible
-Attitude
-Cooperative, sense of humor, respectful, energetic
-Teamwork
-Accept feedback, experience dealing with various personalities, team player
-Work Ethic
-Highly organized, independent, multitasking, reliable, planning, results oriented, dealing with pressure
-                </div>
-            </article>
-            <div class="clear"></div>
-        </section>
-
-
-        <section>
-            <div class="sectionTitle">
-                <h1>Work Experience</h1>
-            </div>
-
-            <div class="sectionContent">
-                <article>
-                    <h2>Self-employed IT Consultant</h2>
-                    <p class="subDetails">Mai 2019 - Present</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-                </article>
-
-                <article>
-                    <h2>Senior Cloud Administrator</h2>
-                    <p class="subDetails">Nov. 2018 - April 2019</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-                </article>
-
-                <article>
-                    <h2>Senior IT Consultant</h2>
-                    <p class="subDetails">October 2004 - December 2006</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-                </article>
-            </div>
-            <div class="clear"></div>
-        </section>
-
-
-        <section>
-            <div class="sectionTitle">
-                <h1>Key Skills</h1>
-            </div>
-
-            <div class="sectionContent">
-                <ul class="keySkills">
-                    <li>A Key Skill</li>
-                    <li>A Key Skill</li>
-                    <li>A Key Skill</li>
-                    <li>A Key Skill</li>
-                    <li>A Key Skill</li>
-                    <li>A Key Skill</li>
-                    <li>A Key Skill</li>
-                    <li>A Key Skill</li>
-                </ul>
-            </div>
-            <div class="clear"></div>
-        </section>
-
-
-        <section>
-            <div class="sectionTitle">
-                <h1>Education</h1>
-            </div>
-
-            <div class="sectionContent">
-                <article>
-                    <h2>Technical University of Munich</h2>
-                    <p class="subDetails">Master of Science in Informatics</p>
-                </article>
-
-                <article>
-                    <h2>University of Applied Sciences Ingolstadt</h2>
-                    <p class="subDetails">Bachelor of Sciene in Informatics</p>
-                </article>
-
-                <article>
-                    <h2>Descartes High School</h2>
-                    <p class="subDetails">General Qualification for University Entrance</p>
-                </article>
-            </div>
-            <div class="clear"></div>
-        </section>
-
+    {{ with $.Site.Params.portfolio.modal.buttonText }}
+        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>{{.}}</button>
+    {{ end }}
     </div>
 </div>
-</body></div>
-
-                        {{ with $.Site.Params.portfolio.modal.buttonText }}
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>{{.}}</button>
-                        {{ end }}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
