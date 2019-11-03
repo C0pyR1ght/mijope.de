@@ -33,10 +33,6 @@
             {{ partial "aside.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.aside }}
-            {{ partial "cv.html" . }}
-        {{ end }}
-
         {{ if .Site.Params.contact }}
             {{ partial "contact.html" . }}
         {{ end }}
