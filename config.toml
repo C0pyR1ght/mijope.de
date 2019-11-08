@@ -1,4 +1,4 @@
-baseurl = "https://test.rootknecht.net"
+baseurl = "https://mijope.de"
 languageCode = "en-us"
 title = "Michael Johann Peter - IT Consulting"
 theme = "hugo-creative-theme"
@@ -42,7 +42,7 @@ theme = "hugo-creative-theme"
 	[params.hero]
       # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
       slogan     = "„Knowledge is power“"
-      subtitle   = "Delivering services in the field of IT Operations and Software Engineering. <br> <strong>My goal is to boost your business by enabling your IT!</strong>"
+      subtitle   = "Delivering services in the field of IT operations and software engineering. <br> My goal is to boost your business by enabling your IT!"
       buttonText = "Show me more"
 
 
@@ -80,7 +80,7 @@ theme = "hugo-creative-theme"
         [[params.services.list]]
             icon = "fa-shield"
             title = "IT Security"
-            description = "I keep security aspects in my mind"
+            description = "I keep security aspects in mind"
         [[params.services.list]]
             icon = "fa-graduation-cap"
             title = "Trainings"
