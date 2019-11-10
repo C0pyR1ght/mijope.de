@@ -33,17 +33,17 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #f05f40;
 }
 
-#about a {
-    color: rgba(52, 52, 52, .7);
-}
+/* #about a { */
+/*     color: rgba(52, 52, 52, .7); */
+/* } */
 
-#about a:hover,
-#about a:focus {
-    color: rgb(52, 52, 52);
-}
+/* #about a:hover, */
+/* #about a:focus { */
+/*     color: rgb(52, 52, 52); */
+/* } */
 
 h1,
 h2,
@@ -61,12 +61,12 @@ p {
 }
 
 .bg-primary {
-    background-color: #f05f40;
+    background-color: #1f222a;
 }
 
 .bg-dark {
     color: #fff;
-    background-color: #222;
+    background-color: #1f222a;
 }
 
 .text-faded {
@@ -88,7 +88,7 @@ aside {
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
-    background-color: #fff;
+    background-color: #1f222a;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -103,7 +103,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #f05f40;
 }
 
 .navbar-default .nav > li>a,
@@ -167,7 +167,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #f05f40;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -408,9 +408,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
+    border-color: #f05f40;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #f05f40;
 }
 
 .btn-primary:active,
