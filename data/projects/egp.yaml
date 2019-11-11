@@ -4,4 +4,4 @@ img: cd.png
 client: Financial Business
 clientLink: "#"
 category: DevOps
-description: Building and the infrastructure and the build pipeline in a multi million Euro project. Establishing guidelines and troubleshooting the dev environments in together with the teams. <br>Jenkins, Ansible, Debian, Java, Spring Boot, Microservices, Docker
+description: Building the infrastructure and build pipeline in a multi million Euro software engineering project. Support in establishing guidelines and troubleshoot failures together with the development teams. <br>Jenkins, Ansible, Debian, Java, Spring Boot, Microservices, Docker
