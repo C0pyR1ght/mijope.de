@@ -32,7 +32,7 @@ theme = "hugo-creative-theme"
 		  [params.navigation.links]
           about     = "About"
           services  = "Services"
-          skills    = "Skills"
+          skills    = "Skillz"
           portfolio = "Portfolio"
           cv        = "CV"
           contact   = "Contact"
