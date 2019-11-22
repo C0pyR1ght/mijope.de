@@ -4,4 +4,4 @@ img: se.png
 client: Internal departments
 clientLink: "#"
 category: DevOps
-description: Development of pre configured tools to cover common needs in Software Engineering projects to enable fast bootstraping and a unified experience for developers. Includes marketing material and end user manuals.<br>Docker, Debian, docker-compose, bash, Gogs, Nexus, Jenkins, Jira, Confluence, Jira, Bitbucket, DaVinci Resolve, docsify
+description: Development of pre configured tools to cover common needs in Software Engineering projects to enable fast bootstraping and a unified experience for developers. Includes marketing material and end user manuals.<p class="technologies">Docker, Debian, docker-compose, bash, Gogs, Nexus, Jenkins, Jira, Confluence, Jira, Bitbucket, DaVinci Resolve, docsify</p>

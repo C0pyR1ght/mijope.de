@@ -20,7 +20,7 @@
                         {{ end }}
 <!--                         <img src="img/portfolio/{{ .img }}" class="img-responsive img-centered" alt=""> -->
                         {{ with .description }}
-                        <h4><font color="rgba(240,95,64,.9)">Project Description</font></h4>
+                        <p class="desc">Project Description</p>
                             <p>{{ . | markdownify }}</p>
                         {{ end }}
                         {{ if .technologies }}

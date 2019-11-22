@@ -4,4 +4,4 @@ img: aws.png
 client: Energy Business
 clientLink: "#"
 category: Operations
-description: Migration of an application landscape between two AWS accounts. <br>AWS, Terraform, Ansbile, CentOS, Python
+description: Migration of an application landscape between two AWS accounts. <p class="technologies">AWS, Terraform, Ansbile, CentOS, Python, HAProxy, Nginx</p>

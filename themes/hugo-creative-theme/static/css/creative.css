@@ -499,3 +499,15 @@ body {
 .footer a.link {
     color: black;
 }
+
+.technologies {
+    color: #f05f40;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.desc {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
