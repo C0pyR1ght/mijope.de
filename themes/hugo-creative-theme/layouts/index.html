@@ -29,9 +29,8 @@
             {{ partial "modals.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.cv }}
-            {{ partial "aside.html" . }}
-        {{ end }}
+        <!-- Knowledge Base -->
+        {{ partial "aside.html" . }}
 
         {{ if .Site.Params.contact }}
             {{ partial "contact.html" . }}
