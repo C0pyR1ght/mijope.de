@@ -11,6 +11,7 @@ function copy {
 
 
 hugo
+hugo --minify
 case $1 in
     dev )
         echo "Deploying to test.rootknecht.net"
