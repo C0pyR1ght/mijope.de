@@ -1,7 +1,10 @@
-baseurl = "https://mijope.de"
+easeurl = "https://mijope.de"
 languageCode = "en-us"
 title = "Michael Johann Peter - IT Consulting"
 theme = "hugo-creative-theme"
+
+[markup.goldmark.renderer]
+unsafe= true
 
 [params]
 
