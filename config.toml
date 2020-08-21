@@ -114,7 +114,7 @@ unsafe= true
 
     # Portfolio scetion
 	  [params.portfolio.modal]
-        headline = "Some topics I have been working on"
+        headline = "Some projects I have been working on"
         client = "Client"
         date = "Date"
         category = "Category"
