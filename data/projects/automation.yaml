@@ -1,7 +1,7 @@
-modalID: 5
-title: Automate Assets Documentation
-img: assets.png
-client: Video Business
-clientLink: "#"
-category: Automation
-description: Developing a software tool to perform an automatic creation of documentation. The tool parses YAML configuration files and pushes the data after validation checks via an API to Jira Insight. <p class="technologies">Python, Docker, Jira Insight, Jenkins, Puppet</p>
+#modalID: 5
+#title: Automate Assets Documentation
+#img: assets.png
+#client: Video Business
+#clientLink: "#"
+#category: Automation
+#description: Developing a software tool to perform an automatic creation of documentation. The tool parses YAML configuration files and pushes the data after validation checks via an API to Jira Insight. <p class="technologies">Python, Docker, Jira Insight, Jenkins, Puppet</p>
