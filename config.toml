@@ -61,35 +61,35 @@ unsafe= true
 		headline = "My services include"
     buttonText  = "Working with"
         [[params.services.list]]
-            icon = "fa-code"
+            icon = "fas fa-code"
             title = "Software Engineering"
             description = "Enable your Engineers to deliver"
         [[params.services.list]]
-            icon = "fa-server"
+            icon = "fas fa-server"
             title = "Operations"
             description = "Work with your Devs and Ops"
         [[params.services.list]]
-            icon = "fa-cloud"
+            icon = "fas fa-cloud"
             title = "Cloud Environments"
             description = "Think Cloud Native in AWS"
         [[params.services.list]]
-            icon = "fa-linux"
+            icon = "fab fa-linux"
             title = "Linux Administration"
             description = "Linux and the shell is my second home"
         [[params.services.list]]
-            icon = "fa-cogs"
+            icon = "fas fa-cogs"
             title = "Automation"
             description = "Automate your boring stuff"
         [[params.services.list]]
-            icon = "fa-shield"
+            icon = "fa fa-shield-alt"
             title = "IT Security"
             description = "Keep security aspects in mind"
         [[params.services.list]]
-            icon = "fa-graduation-cap"
+            icon = "fas fa-graduation-cap"
             title = "Trainings"
             description = "Enhance productivity and tooling"
         [[params.services.list]]
-            icon = "fa-pencil"
+            icon = "fas fa-pencil-alt"
             title = "Publicity"
             description = "Support you in writing technical articles"
 
@@ -97,9 +97,9 @@ unsafe= true
     # Skills section
     [params.skills]
         headline    = "Skills"
-        description = '''<p><strong>Ansible | Puppet</strong></p>
+        description = '''<p><strong>Kubernetes | Kustomize | Flux | ArgoCD</strong></p>
         <p><strong>AWS | VMware vSphere | VirualBox</strong></p>
-        <p><strong>Terraform | Vagrant</strong></p>
+        <p><strong>Terraform | Vagrant | Ansible</strong></p>
         <p><strong>Jenkins | Docker(-swarm) | Prometheus | Grafana</strong></p>
         <p><strong>Debian | Ubuntu | CentOS | SUSE | Arch | Windows</strong></p>
         <p><strong>Python | Bash | Java | Ruby | Go</strong></p>
@@ -139,7 +139,8 @@ unsafe= true
     [params.contact]
         headline = "Let's Get In Touch!"
         #description = "Feel free to contact me"
-        email = "me@mijope.de"
+        email = "Mail"
         xing = "https://www.xing.com/profile/Michael_Peter94/"
         linkedin = "https://www.linkedin.com/in/michael-peter-4aa918107/"
         github = "https://github.com/Allaman"
+        vcard = "/img/vcard.vcf"
