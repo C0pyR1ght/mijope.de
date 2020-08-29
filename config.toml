@@ -143,4 +143,4 @@ unsafe= true
         xing = "https://www.xing.com/profile/Michael_Peter94/"
         linkedin = "https://www.linkedin.com/in/michael-peter-4aa918107/"
         github = "https://github.com/Allaman"
-        vcard = "/img/vcard.vcf"
+        vcard = "/vcard.vcf"
