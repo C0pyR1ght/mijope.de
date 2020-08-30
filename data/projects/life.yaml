@@ -4,4 +4,4 @@ img: pipeline.png
 client: Insurance Business
 clientLink: "#"
 category: DevOps
-description: Support the client in introducing new technologies and methods to improve the lead time of a monolithic software.<p class="technologies">Docker, Java, Bash, OpenSuse, JBoss</p>
+description: My task was to support the client in introducing new technologies and methods in particular containerization to improve the lead time of a monolithic software by dividing out parts of the monolith together with the client's dev teams. <p class="technologies">Docker, Java, Bash, OpenSuse, JBoss</p>
