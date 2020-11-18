@@ -6,7 +6,7 @@ if [ "$#" != 1 ]; then
 fi
 
 function copy {
-  rsync -avhr --delete -e ssh $1 rootknecht:$2
+  rsync -avhr --delete -e ssh $1 neu:$2
 }
 
 
@@ -16,11 +16,11 @@ case $1 in
     dev )
         echo "Deploying to test.rootknecht.net"
         copy ./public/ /var/www/test/
-        ssh rootknecht chown -R knecht:www-data /var/www/test
+        ssh neu chown -R michael:www-data /var/www/test
         ;;
     prod )
         echo "Deploying to mijope.de"
-        scp -r ./public/* rootknecht:/var/www/mijope
-        ssh rootknecht chown -R knecht:www-data /var/www/mijope
+        copy ./public/ /var/www/mijope/
+        ssh neu chown -R michael:www-data /var/www/mijope
         ;;
 esac

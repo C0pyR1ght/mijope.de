@@ -23,7 +23,7 @@ unsafe= true
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
 	name = "Michael Johann Peter"
-	description = "Freelancer/IT Consultant in the field of software engineering and IT operations. Topics include cloud environments, containerization, continuous deployments, and build pipelines. Technolgies include AWS, Terraform, Docker, Jenkins, Ansible, Python, Java, Bash, Debian, CentOS, Git, Jira, Confluence, Prometheus"
+	description = "Freelancer/IT Consultant in the field of software engineering and IT operations. Topics include cloud environments, containerization, continuous deployments, and build pipelines. Technolgies include AWS, Terraform, Docker, Kubernetes, Jenkins, Ansible, Python, Java, Bash, Debian, CentOS, Git, Jira, Confluence, Grafana, Prometheus"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.png"
@@ -52,7 +52,7 @@ unsafe= true
 	# About section
 	[params.about]
       headline    = "Who am I"
-        description = '''Munich based IT Consultant <br> IT is not only my profession but my passion <br> I am a team player <br> I love to develop solutions <br> I have a broad understanding of IT <br> I don't hesitate to learn and improve'''
+        description = '''IT is not only my profession but my passion <br> I am a team player <br> I love to develop solutions <br> I have a broad understanding of IT <br> I don't hesitate to learn and improve <br> Experienced remote worker'''
         buttonText  = "How can I support you?"
 
 
