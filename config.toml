@@ -98,7 +98,7 @@ unsafe= true
     [params.skills]
         headline    = "Skills"
         description = '''<p><strong>Kubernetes | Kustomize | Flux | ArgoCD</strong></p>
-        <p><strong>AWS | VMware vSphere | VirualBox</strong></p>
+        <p><strong>AWS | VMware vSphere | VirtualBox</strong></p>
         <p><strong>Terraform | Vagrant | Ansible</strong></p>
         <p><strong>Jenkins | Docker(-swarm) | Prometheus | Grafana</strong></p>
         <p><strong>Debian | Ubuntu | CentOS | SUSE | Arch | Windows</strong></p>
